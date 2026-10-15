@@ -76,6 +76,7 @@ else
 
         -S | Install package
         -U | Upgrade package
+        -V | Check snatch version
     "
     exit 1
 fi
