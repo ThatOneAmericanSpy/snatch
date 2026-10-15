@@ -1,5 +1,5 @@
 pkgname=snatch
-pkgver=1.0.2
+pkgver=1.0.3
 pkgrel=1
 pkgdesc="A simple and lightweight aur helper"
 arch=('any')

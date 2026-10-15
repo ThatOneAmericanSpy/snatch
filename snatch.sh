@@ -2,6 +2,7 @@
 
 cmd="$1"
 pkg="$2"
+ver="beta 1.0.3"
 
 confirm() {
     while true; do
@@ -67,7 +68,8 @@ elif [ "$cmd" = "-U" ]; then
     echo "Checking pacman repositories for updates..."
     sudo pacman -Syu
     exit 0
-
+elif [ "$cmd" == "-V" ]; then
+    echo "$ver"
 else
     echo "
     Correct Syntax:
